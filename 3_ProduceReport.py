@@ -55,15 +55,12 @@ print()
 print('Total Sales for Cucumbers:', df2.at['Cucumber', 'Total'])
 print()
 print()
-print()
-print()
 
 df3 = df2.loc[(df2['Quantity Sold'] >= 11500) & (df2['Quantity Sold'] <= 12000)]
 print(df3)
 print()
 print()
-print()
-print()
+
 
 df4 = df3.T
 print(df4)
